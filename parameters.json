@@ -90,7 +90,7 @@
             "value": "ronsqlserver"
         },
         "sqlAuthenticationPassword": {
-            "value": null
+            "value": "ronsqlserver-1A"
         },
         "rServicesEnabled": {
             "value": "true"
