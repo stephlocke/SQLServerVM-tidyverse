@@ -15,10 +15,10 @@
             "value": "ronsqlserver"
         },
         "storageAccountName": {
-            "value": "mltadevdisks164"
+            "value": "ronsqlserverdisks164"
         },
         "virtualNetworkName": {
-            "value": "mlta_dev-vnet"
+            "value": "ronsqlserver-vnet"
         },
         "networkInterfaceName": {
             "value": "ronsqlserver205"
@@ -27,19 +27,19 @@
             "value": "ronsqlserver-nsg"
         },
         "adminPassword": {
-            "value": null
+            "value": "ronsqlserver-1A"
         },
         "storageAccountType": {
             "value": "Premium_LRS"
         },
         "diagnosticsStorageAccountName": {
-            "value": "mltadevdiag164"
+            "value": "ronsqlserverdiag164"
         },
         "diagnosticsStorageAccountType": {
             "value": "Standard_LRS"
         },
         "diagnosticsStorageAccountId": {
-            "value": "Microsoft.Storage/storageAccounts/mltadevdiag164"
+            "value": "Microsoft.Storage/storageAccounts/ronsqlserverdiag164"
         },
         "addressPrefix": {
             "value": "10.0.0.0/24"
