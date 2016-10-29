@@ -102,7 +102,7 @@
             "value": "ukwest"
         },
         "ex0_fileUris": {
-            "value": "https://iaasv2tempstorageam.blob.core.windows.net/vmextensionstemporary-1003bffd9804d49a-20161029133743987/licensingquery.sql?sv=2015-04-05&sr=c&sig=wacfXbDJh5WWxaEt4AUPvsgoLU9jMnfLmfr3847g6pY%3D&se=2016-10-30T13%3A37%3A44Z&sp=rw"
+            "value": "https://github.com/stephlocke/SQLServerVM-tidyverse/raw/master/installRpackages.ps1"
         }
     }
 }
