@@ -1,0 +1,108 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "ukwest"
+        },
+        "virtualMachineName": {
+            "value": "ronsqlserver"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "adminUsername": {
+            "value": "ronsqlserver"
+        },
+        "storageAccountName": {
+            "value": "mltadevdisks164"
+        },
+        "virtualNetworkName": {
+            "value": "mlta_dev-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "ronsqlserver205"
+        },
+        "networkSecurityGroupName": {
+            "value": "ronsqlserver-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "storageAccountType": {
+            "value": "Premium_LRS"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "mltadevdiag164"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/mltadevdiag164"
+        },
+        "addressPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "ronsqlserver-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "sqlConnectivityType": {
+            "value": "Private"
+        },
+        "sqlPortNumber": {
+            "value": 1433
+        },
+        "sqlStorageDisksCount": {
+            "value": 1
+        },
+        "sqlStorageWorkloadType": {
+            "value": "GENERAL"
+        },
+        "sqlStorageDisksConfigurationType": {
+            "value": "NEW"
+        },
+        "sqlStorageStartingDeviceId": {
+            "value": 2
+        },
+        "sqlStorageDeploymentToken": {
+            "value": 38227
+        },
+        "sqlAutopatchingDayOfWeek": {
+            "value": "Sunday"
+        },
+        "sqlAutopatchingStartHour": {
+            "value": "2"
+        },
+        "sqlAutopatchingWindowDuration": {
+            "value": "60"
+        },
+        "sqlAuthenticationLogin": {
+            "value": "ronsqlserver"
+        },
+        "sqlAuthenticationPassword": {
+            "value": null
+        },
+        "rServicesEnabled": {
+            "value": "true"
+        },
+        "ex0_vmName": {
+            "value": "ronsqlserver"
+        },
+        "ex0_location": {
+            "value": "ukwest"
+        },
+        "ex0_fileUris": {
+            "value": "https://iaasv2tempstorageam.blob.core.windows.net/vmextensionstemporary-1003bffd9804d49a-20161029133743987/licensingquery.sql?sv=2015-04-05&sr=c&sig=wacfXbDJh5WWxaEt4AUPvsgoLU9jMnfLmfr3847g6pY%3D&se=2016-10-30T13%3A37%3A44Z&sp=rw"
+        }
+    }
+}
