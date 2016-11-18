@@ -11,4 +11,4 @@ To make this work for your organisation:
 - Amend the [parameters.json](./parameters.json) to include the relevant information for you
 - Execute one of the various deploy scripts. To use the PowerShell one, you will need to ensure you can run an externally created, non-signed script
 
-Check out the accompanying presentation [SQL Server & R](http://stephlocke.info/Rtraining/RonSQLServer.html) for more background info.
+Check out the accompanying presentation [SQL Server & R](http://stephlocke.info/Rtraining/RonSQLServer.html) and [TechDays Online @ Future Decoded video](https://channel9.msdn.com/events/TechDaysOnline/UK-TechDays-Online--Future-Decoded/Get-going-with-modern-R-in-SQL-Server-in-30-minutes) for more info.
